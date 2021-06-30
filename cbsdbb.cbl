@@ -70,6 +70,7 @@
       *     INTO
       *     :H1-ACCOUNT-NUMBER, :H1-ACCOUNT-STATUS, :H1-UPD-USERID,
       *     :H1-CUSTOMER-ID
+      *     further comment
            FROM CBS_ACCT_MSTR_DTL
            WHERE ACCOUNT_NUMBER=:H1-ACCOUNT-NUMBER
            END-EXEC
