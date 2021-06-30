@@ -152,7 +152,7 @@
                DISPLAY 'CHECK STATUS PARA'
            EVALUATE WS-ACCOUNT-STATUS
               WHEN 'ACTIVE    '
-               DISPLAY 'ALREADY REGISTERED'
+               DISPLAY 'ALREADY REGISTERED DISPLAY'
                MOVE WS-MESSAGE TO MESSAGES
                EXEC CICS RETURN END-EXEC
               WHEN 'INACTIVE  '
