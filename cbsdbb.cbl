@@ -86,7 +86,7 @@
                   ' ' DELIMITED BY SIZE
                   WS-PRINT1 DELIMITED BY SIZE
             INTO WS-MESSAGE1
-           DISPLAY "MESS" WS-MESSAGE
+           DISPLAY "MESSOO" WS-MESSAGE
            DISPLAY "NAME" WS-ACCOUNT-NAME
            DISPLAY "SQLCODE:" SQLCODE
 
